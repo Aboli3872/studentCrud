@@ -1,0 +1,28 @@
+{
+  "student": [
+    {
+      "id": "1",
+      "name": "Aboli",
+      "surname": "Kamble",
+      "marks": 91.82,
+      "class": 10,
+      "division": "A"
+    },
+    {
+      "id": "2",
+      "name": "Shital",
+      "surname": "Billari",
+      "marks": 93.52,
+      "class": 9,
+      "division": "B"
+    },
+    {
+      "id": "4",
+      "name": "Swati",
+      "surname": "Kamble",
+      "marks": "99.99",
+      "class": "10th",
+      "division": "A"
+    }
+  ]
+}

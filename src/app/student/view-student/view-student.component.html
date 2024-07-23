@@ -1,0 +1,25 @@
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>RollNo</th>
+            <th>Name</th>
+            <th>SurName</th>
+            <th>Marks</th>
+            <th>Class</th>
+            <th>Division</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tr *ngFor="let s of stud">
+        <td>{{s.id}}</td>
+        <td>{{s.name}}</td>
+        <td>{{s.surname}}</td>
+        <td>{{s.marks}}</td>
+        <td>{{s.class}}</td>
+        <td>{{s.division}}</td>
+        <td>
+            <button class="me-3 btn btn-primary" (click)="onEdit(s)"><i class="fa fa-pencil" aria-hidden="true"></i></button>
+            <button class="btn btn-danger" (click)="onDelete(s.id)"><i class="fa fa-trash" aria-hidden="true"></i></button>
+        </td>
+    </tr>
+</table>

@@ -1,0 +1,10 @@
+<h2 class="bg-success text-white text-center ms-2">Login here...!!</h2>
+<form [formGroup]="studentform" (ngSubmit)="onSaveStudent()" class="stu">
+    <input type="text" placeholder="Enter Student Rollno" formControlName="id">
+    <input type="text" placeholder="Enter Student Name" formControlName="name">
+    <input type="text" placeholder="Enter Student Surname" formControlName="surname">
+    <input type="text" placeholder="Enter Student Marks" formControlName="marks">
+    <input type="text" placeholder="Enter Student Class" formControlName="class">
+    <input type="text" placeholder="Enter Student Division" formControlName="division">
+    <button class="btn btn-primary">REGISTER</button>
+</form>
